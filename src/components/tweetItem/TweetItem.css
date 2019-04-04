@@ -1,0 +1,70 @@
+.tweets {
+    margin: 1.5em 0;
+    max-width: 650px;
+}
+
+.tweet {
+    position: relative;
+    background: 0 0;
+    margin: .5em 0 0;
+    padding: .5em 0 0;
+    border: none;
+    border-top: none;
+    line-height: 1.2;
+}
+
+.tweet-avatar {
+    display: block;
+    width: 2.5em;
+    height: auto;
+    float: left;
+    margin: .2em 0 0;
+}
+
+.tweet-img {
+    border-radius: 5px;
+    background: rgba(0,0,0,.25);
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.tweet-content {
+    margin-left: 4em;
+}
+
+.tweet-author {
+    font-size: 1em;
+    color: #1b1c1d;
+    font-weight: 700;
+}
+
+.tweet-metadata {
+    display: inline-block;
+    margin-left: .5em;
+    color: rgba(0,0,0,.4);
+    font-size: .875em;
+}
+
+.tweet-user {
+    display: inline-block;
+    margin: 0 .5em 0 0;
+}
+
+.tweet-date {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.tweet-text {
+    margin: .25em 0 .5em;
+    font-size: 1em;
+    word-wrap: break-word;
+    color: rgba(0,0,0,.87);
+    line-height: 1.3;
+}
+
+.line {
+    padding-bottom: 1.214286rem;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+  }
